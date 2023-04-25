@@ -1,0 +1,127 @@
+body{
+    background: #2b2a33;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+img{
+    vertical-align: middle;
+}
+.material-symbols-outlined{
+    vertical-align: -.2rem;
+}
+legend{
+    padding-left: .1rem;
+}
+h1,h2,h3,p,ul,ol,figure{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --btn-info: hsl(0, 87%, 6%);
+}
+.btn-primary{
+    width: 10rem;
+    line-height: 2.5rem;
+    background-color: #042844;
+    color: #fff;
+    font-size: inherit;
+    margin: 1rem 0;
+    padding: 0 .3rem;
+    cursor: pointer;
+
+}
+header h1{
+    text-align: center;
+    line-height: 9rem;
+    
+    background: #121212;
+    color: #fff;
+}
+section{
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+section h2{
+    color: #fff;
+    padding: 3rem 0;
+}
+section ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    
+
+}
+section h2, :is(p){
+    color: #fff;
+    padding-left: 1rem;
+}
+section ul li{
+    background-color: #42414d;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+/* se loger */
+aside{
+   
+    max-width: 50rem;
+    margin: 1rem auto;
+    border: solid .1rem transparent;
+    padding: 1rem;
+    background-color: #222;
+    border-radius: .4rem;
+}
+aside a{
+    color: #fff;
+}
+aside:not(input){
+    text-align: center;
+}
+aside form{
+    display: flex;
+    flex-direction: column;
+
+}
+aside form label{
+    font-weight: normal;
+    text-align: left;
+}
+aside form
+input[type="password"], aside form
+input[type="text"]{
+    border: 0;
+    color:  #ccc;
+    padding: 2.5rem .8rem;
+    transition-duration: .6s;
+
+}
+
+aside form input:focus{
+    background-color: #1a1717;
+    color: #fafafa;
+}
+
+aside form 
+[placeholder]{
+    background-color: #42414d;
+   
+  
+}
+aside form button{
+    line-height: 0;
+    padding: 2.5rem .8rem;
+    font-size: inherit;
+}
+aside form .btn-validate{
+    background-color: #cf0c0c;
+    border: solid .1rem transparent;
+   
+}
+
+
+footer *{
+    color: #fff;
+    text-align: center;
+}
