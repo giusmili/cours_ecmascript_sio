@@ -4,7 +4,6 @@ ES6 est la version la plus récente de la norme ECMAScript, qui est utilisée po
 
 L’une des principales caractéristiques d’ES6 est sa capacité à rendre le code JavaScript plus concis et plus facile à lire, en introduisant de nouvelles constructions de langage qui permettent aux développeurs d’écrire du code plus propre et plus maintenable.
 
-MIT - 2023
 
 Certaines des fonctionnalités les plus populaires de ES6 incluent les variables let et const, les fonctions fléchées, les classes, les modules, les promesses, les itérateurs et les générateurs.
 
