@@ -3,7 +3,11 @@ document.addEventListener("DOMContentLoaded", e => {
     let date = document.querySelector("time");
     date.innerText += new Date().getFullYear();
     date.setAttribute("datatime", new Date().getFullYear());
-   
+    let img = document.getElementsByTagName("img");
+    const btn = document.querySelector("form button");
+    for (rows of img) {
+        console.log(rows);
+    }
 
     console.log(date);
     console.log("Hello world");
@@ -30,4 +34,11 @@ document.addEventListener("DOMContentLoaded", e => {
     for (i = 0; i < table.length; i++) {
         console.log(i + " " + table[i] + "\n");
     }
+    let f = n => {
+        return n % 2 == 0 ? console.log("nombre paire") : console.log("nombre impaire");
+    };
+    btn.addEventListener("click", () => {
+
+        f(prompt("saisir un nombre"));
+    });
 });
